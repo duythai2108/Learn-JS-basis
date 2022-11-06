@@ -70,3 +70,19 @@ console.log(now.toLocaleDateString()); //11/5/2022, m/dd/yyyy
 //5/11/2022
 console.log(now.toLocaleDateString("vi-VI")); //5/11/2022
 console.log(now.toISOString());
+
+//05/11/2022
+const myTime = new Date("Sat Nov 05 2022 16:50:16 GMT+0700 (Indochina Time)");
+const myYear = myTime.getFullYear(); //2022
+const myMonth = myTime.getMonth() + 1; //11
+const myDate = myTime.getDate(); //05
+const prefixMonth = myMonth < 10 ? "0" : "";
+console.log(`${myDate}/${prefixMonth}${myMonth}/${myYear}`);
+// setTimeout vs setInterval
+// setTimeout(function () {
+//   alert("call me after 3 secconds");
+// }, 3000);
+const timer = setInterval(function () {
+  console.log("call me");
+}, 1000);
+clearInterval(timer);
