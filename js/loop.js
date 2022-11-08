@@ -30,9 +30,56 @@ for (let i = 0; i < numbers.length; i++) {
   //   console.log(`The value is ${numbers[i]}`);
 }
 //Nested looop
-for (let i = numbers.length - 1; i >= 0; i--) {
-  console.log(`The value is ${numbers[i]}`);
-  for (let j = numbers.length - 1; j >= 0; j--) {
-    console.log(j);
-  }
+// for (let i = numbers.length - 1; i >= 0; i--) {
+//   console.log(`The value is ${numbers[i]}`);
+//   for (let j = numbers.length - 1; j >= 0; j--) {
+//     console.log(j);
+//   }
+// }
+
+// 1 sao chep mang dung vong lap for
+let copyArr = [];
+// 1 2 3 4
+//push
+for (let i = 0; i < numbers.length; i++) {
+  copyArr.push(numbers[i]);
+}
+console.log(copyArr);
+// 2 dao nguoc tu "i love you" -> "evol i"
+let str = "i love";
+let result = "";
+for (let i = str.length - 1; i >= 0; i--) {
+  console.log(str[i]);
+  result = result + str[i];
+}
+console.log(result);
+
+//while va do while
+// while(condition)
+let number = 1;
+while (number < 10) {
+  //   console.log("number is " + number);
+  // dieu kien dung
+  number = number + 1;
+  // number++
+}
+/**
+ do {
+
+ } while(conditon)
+ */
+// let number2 = 1;
+// do {
+//   number2++;
+//   console.log("number is " + number2);
+// } while (number2 < 10);
+
+//for of
+//for(value of array){}
+for (let value of numbers) {
+  value += 10;
+  console.log(value);
+}
+for (let c of "evondev") {
+  console.log(c);
 }
