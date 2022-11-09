@@ -6,3 +6,12 @@ function handleToggleMenu(event) {
   event.target.classList.toggle("fa-bars");
   menu.classList.toggle("is-show");
 }
+document.addEventListener("click", handleCLickOutMenu);
+function handleCLickOutMenu(event) {
+  // event.target.contains: Kiem tra element co chua element khac hay khong
+  if (!menu.contains(event.target) && !event.target.matches(".menu-toggle")) {
+    menu.classList.remove("is-show");
+    toggle.classList.remove("fa-times");
+    toggle.classList.add("fa-bars");
+  }
+}
