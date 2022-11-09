@@ -72,7 +72,7 @@ body {
   border-bottom: 1px solid #eee;
 }
 /* Modal */
-.modal {
+/* .modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -137,20 +137,20 @@ body {
 .modal-submit {
   background-color: blue;
   color: white;
-}
+} */
 
-/* Noti-excecise */
-/* .noti {
+/* Noti-excecise  */
+.noti {
   position: fixed;
   left: 15px;
   bottom: 15px;
-  background-color: #fff;
+  background-color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 8px;
   display: flex;
   max-width: 400px;
   height: 130px;
-  transform: translateY((150%));
+  transform: translateY(150%);
   animation: noti 4s forwards 1 linear;
 }
 @keyframes noti {
@@ -161,22 +161,23 @@ body {
   100% {
     transform: translateY(150%);
   }
-} */
-
-/* Sizing */
-.boxed {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  border: 5px solid;
 }
-/* Event */
-.button {
-  padding: 20px;
-  color: white;
-  background-color: yellowgreen;
-  margin: 50px auto;
-  display: block;
-  border: 0;
-  width: 300px;
+.noti-image {
+  width: 30%;
+  flex-shrink: 0;
+  border-radius: inherit;
+  object-fit: cover;
+}
+.noti-content {
+  padding: 15px;
+  flex: 1;
+}
+.noti-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.noti-desc {
+  font-size: 14px;
+  line-height: 1.6;
 }
