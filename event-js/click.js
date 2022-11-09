@@ -46,5 +46,9 @@ button.addEventListener("click", function (e) {
 const link = document.querySelector(".link");
 link.addEventListener("click", function (event) {
   event.preventDefault();
-  console.log("Click me");
+  // select.style
+  // event.target.style
+  // console.log(event.target);
+  // console.log(event.target.style);
+  // event.target.style.color = "red";
 });
