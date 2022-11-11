@@ -50,6 +50,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1;
+  height: 500vh;
 }
 .menu {
   width: 300px;
@@ -179,4 +180,34 @@ body {
   display: block;
   border: 0;
   width: 300px;
+}
+
+/* form */
+.input {
+  padding: 15px;
+  border: 1px solid #eee;
+  font-size: 15px;
+  width: 300px;
+  margin: 50px auto;
+  display: block;
+  border-radius: 20px;
+}
+.form-login input {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.form-login button {
+  padding: 15px;
+  display: block;
+  color: white;
+  background-color: aqua;
+  border: 0;
+  font-size: 19px;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 15px;
+  width: 50%;
 }
