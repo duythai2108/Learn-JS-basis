@@ -1,0 +1,29 @@
+{
+  "posts": [],
+  "courses": [
+    {
+      "image": "https://images.unsplash.com/photo-1668368559741-ecb473c53403?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "title": "HTML CSS",
+      "author": "Evondev",
+      "rating": 5,
+      "price": 56,
+      "bestSeller": true,
+      "buyAmount": 2700,
+      "id": 1
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1657214059139-dc58d16118ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "title": "Flower",
+      "author": "duy thai",
+      "rating": 3,
+      "price": 24,
+      "bestSeller": true,
+      "buyAmount": 567,
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
